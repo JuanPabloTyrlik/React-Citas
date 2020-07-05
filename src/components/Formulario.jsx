@@ -36,6 +36,7 @@ const Formulario = ({crearCita}) => {
       return;
     }
     if (error) setError(false);
+    
     // Asignar ID
 
     setCita({
